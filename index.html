@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Boulangerie HALのサイトです。">
+  <meta name="keywords" content="cafe, カフェ, 喫茶店, Boulangerie HAL">
+  <title>Boulangerie HAL</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Modernizer -->
+  <script src="js/modernizer.js"></script>
+</head>
+
+
+<body>
+  <div id="loader">
+    <div id="status"></div>
+  </div>
+  <div id="site-header">
+    <header id="header" class="header-block-top">
+      <div class="container">
+        <div class="row">
+          <div class="main-menu">
+            <!-- navbar -->
+            <nav class="navbar navbar-default" id="mainNav">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                  aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                  <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                    <img src="images/BoulangerieHAL_logo04.png" alt="ロゴ">
+                  </a>
+                </div>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#banner">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#address">Address</a></li>
+                </ul>
+              </div>
+              <!-- end nav-collapse -->
+            </nav>
+            <!-- end navbar -->
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container-fluid -->
+    </header>
+    <!-- end header -->
+  </div>
+  <!-- end site-header -->
+
+  <div id="banner" class="banner full-screen-mode parallax">
+    <div class="container pr">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="banner-static">
+          <div class="banner-text">
+            <div class="banner-cell">
+              <h1>Boulangerie HAL <span class="typer" id="some-id" data-delay="200" data-delim=":"
+                  data-words="Friends:Family:Officemates" data-colors="red"></span><span class="cursor"
+                  data-cursorDisplay="_" data-owner="some-id"></span></h1>
+              <a href="#about">
+                <div class="mouse"></div>
+              </a>
+            </div>
+            <!-- end banner-cell -->
+          </div>
+          <!-- end banner-text -->
+        </div>
+        <!-- end banner-static -->
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end banner -->
+
+  <div id="about" class="about-main pad-top-100 pad-bottom-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+            <h2 class="block-title"> About </h2>
+            <h3>”暮らしに寄り添うブーランジェリー”</h3>
+            <p>本場フランスのパン作りをベースに世界中から厳選した小麦粉を使用し、シーズンごとに届く旬の素材を掛け合わせ、見た目にも美しく美味しいパンを提案するブーランジェリー。 </p>
+            <p>
+              数量限定の食パンや、厚めのパリパリとした層が特徴のクロワッサンを始めとするヴィエノワズリー、時間ごとにメニューが変わるタルティーヌなど、彩り豊かなメニューがラインナップします。どんなシーンでも楽しめる、日常に寄り添ったパンをお届けします。
+            </p>
+          </div>
+        </div>
+        <!-- end col -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="about-images">
+              <img class="about-main" src="images/image002.jpg" alt="About Main Image">
+              <img class="about-inset" src="images/image006.jpg" alt="About Inset Image">
+            </div>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </div>
+
+  <div id="menu" class="special-menu pad-top-100 parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+            <h2 class="block-title color-white text-center"> Menu </h2>
+          </div>
+          <div class="special-box">
+            <div id="owl-demo">
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      フワス　ヴェルヴェンヌ
+                      <div class="line"></div>
+                      <div class="dit-line">オーベルニュ地方の名産ハーブ「ヴェルヴェンヌ」にオレンジ、レモンを合わせ　香り高いブリオッシュに仕上げています。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain001.jpg" alt="sp-menu">
+                </div>
+              </div>
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      ローストビーフとチーズのサンドイッチ
+                      <div class="line"></div>
+                      <div class="dit-line">名産フルムダンベールチーズを使った濃厚でクリーミーなソースにローストビーフを合わせたサンドイッチです。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain002.jpg" alt="sp-menu">
+                </div>
+              </div>
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      ソーセージとレンズ豆のタルティーヌ
+                      <div class="line"></div>
+                      <div class="dit-line">レンズ豆と相性の良い、ソーセージとマッシュポテトをのせたボリューム満点のタルティーヌです。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain003.jpg" alt="sp-menu">
+                </div>
+              </div>
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      塩豚とルピュイ産レンズ豆煮込みのパイ
+                      <div class="line"></div>
+                      <div class="dit-line">オーベルニュ地方ルピュイ名産のレンズ豆を塩豚・ベーコン・香味野菜と煮込む郷土料理のパイです。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain004.jpg" alt="sp-menu">
+                </div>
+              </div>
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      ケークサレ
+                      <div class="line"></div>
+                      <div class="dit-line">昔からある郷土料理です。スイスチャード（葉野菜)を生地に練り込みベーコンとプルーンを加えた甘塩っぱいケークサレです。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain005.jpg" alt="sp-menu">
+                </div>
+              </div>
+              <div class="item item-type-zoom">
+                <a href="#" class="item-hover">
+                  <div class="item-info">
+                    <div class="headline">
+                      「トリュファード」のクロワッサン
+                      <div class="line"></div>
+                      <div class="dit-line">ジャガイモ、玉ねぎ、スモークベーコンを名産チーズと炒める「トリュファード」をクロワッサン生地に合わせて香ばしく仕上げています。
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div class="item-img">
+                  <img src="images/pain006.jpg" alt="sp-menu">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end special-box -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end special-menu -->
+
+  <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+            <h2 class="block-title text-center">
+              Gallery
+            </h2>
+          </div>
+          <div class="gal-container clearfix">
+            <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#1">
+                  <img src="images/image001.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image001.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 1 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#2">
+                  <img src="images/image003.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image003.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 2 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#3">
+                  <img src="images/image034.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image034.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 3 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#4">
+                  <img src="images/image035.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image035.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 4 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#5">
+                  <img src="images/image036.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image036.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 5 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#9">
+                  <img src="images/image031.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image031.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 6 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#10">
+                  <img src="images/image008.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image008.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 7 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#11">
+                  <img src="images/image009.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="11" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image009.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 8 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#12">
+                  <img src="images/image013.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="12" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image013.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 9 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+              <div class="box">
+                <a href="#" data-toggle="modal" data-target="#13">
+                  <img src="images/image016.jpg" alt="" />
+                </a>
+                <div class="modal fade" id="13" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                          aria-hidden="true">×</span></button>
+                      <div class="modal-body">
+                        <img src="images/image016.jpg" alt="" />
+                      </div>
+                      <div class="col-md-12 description">
+                        <h4>This is the 10 one on my Gallery</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end gal-container -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end gallery-main -->
+
+  <div id="news" class="blog-main pad-top-100 pad-bottom-100 parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="block-title text-center">
+            News
+          </h2>
+          <div class="blog-box clearfix">
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+              <div class="col-md-6 col-sm-6">
+                <div class="blog-block">
+                  <div class="blog-img-box">
+                    <img src="images/image021.jpg" alt="" />
+                    <div class="overlay">
+                      <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <div class="blog-dit">
+                    <p><span>2019年11月30日</span></p>
+                    <h2>名産ブルーチーズ「フルム・ダンベール」を使ったパンや郷土料理をアレンジした惣菜パンなど、フェア限定商品をご用意しております。</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+            </div>
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+              <div class="col-md-6 col-sm-6">
+                <div class="blog-block">
+                  <div class="blog-img-box">
+                    <img src="images/image022.jpg" alt="" />
+                    <div class="overlay">
+                      <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <div class="blog-dit">
+                    <p><span>2019年11月16日</span></p>
+                    <h2>ご好評いただいております、デザートに、季節限定でオレンジを使用したデザートが加わります。</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+            </div>
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+              <div class="col-md-6 col-sm-6">
+                <div class="blog-block">
+                  <div class="blog-img-box">
+                    <img src="images/image027.jpg" alt="" />
+                    <div class="overlay">
+                      <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <div class="blog-dit">
+                    <p><span>2019年11月8日</span></p>
+                    <h2>フランス　オーベルニュ地方の伝統パンや郷土料理の惣菜パンなどを販売するオーベルニュ地方フェアを開催いたします。</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+            </div>
+          </div>
+        </div>
+        <!-- end blog-box -->
+
+        <div class="blog-btn-v">
+          <a class="hvr-underline-from-center" href="#">More News</a>
+        </div>
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+  </div>
+  <!-- end blog-main -->
+
+
+
+  <div id="address" class="reservations-main pad-top-100 pad-bottom-100">
+    <div class="container">
+      <div class="row">
+        <div class="form-reservations-box">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+              <h2 class="block-title text-center">
+                Address
+              </h2>
+            </div>
+            <p><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.0908729024638!2d139.69964074330827!3d35.64789358540413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b45f5311ed1%3A0x12987f54caa1ee65!2z44CSMTUwLTAwMzMg5p2x5Lqs6YO95riL6LC35Yy654y_5qW955S677yS77yZ4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1433666443406"
+                width="780" height="450" frameborder="0" style="border:0"></iframe></p>
+            <h3>Boulangerie HAL</h3>
+            <p>住所：東京都渋谷区猿楽町29-18</p>
+            <p>電話：03-3344-1010</p>
+            <p>東急東横線［代官山駅］下車　徒歩3分</p>
+            <p>東急東横線・地下鉄日比谷線［中目黒駅］下車　徒歩7分</p>
+            <p>JR山手線・JR埼京線・地下鉄日比谷線［恵比寿駅］下車　徒歩10分</p>
+            <!-- end col -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end reservations-box -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end reservations-main -->
+
+  <div id="footer" class="footer-main">
+    <div id="copyright" class="copyright-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h6 class="copy-title"> Copyright &copy; 2019 Boulangerie HAL <a href="#" target="_blank"></a>
+            </h6>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end copyright-main -->
+  </div>
+  <!-- end footer-main -->
+
+  <a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+
+
+  <!-- ALL JS FILES -->
+  <script src="js/all.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- ALL PLUGINS -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
